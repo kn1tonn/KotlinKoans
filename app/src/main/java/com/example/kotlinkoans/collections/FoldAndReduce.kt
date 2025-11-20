@@ -24,7 +24,7 @@ fun main() {
 
     val shop = Shop("Kotlin Store", listOf(customer1, customer2, customer3))
 
-    val getCustomersWithMoreUndeliveredOrders = shop.getCustomersWithMoreUndeliveredOrders()
+    val getProductsOrderedByAll = shop.getProductsOrderedByAll()
 
-    println(getCustomersWithMoreUndeliveredOrders)
+    println(getProductsOrderedByAll)
 }
